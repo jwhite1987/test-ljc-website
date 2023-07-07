@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1003,11 +1004,11 @@ section .container {
 }
 .contact .info-box i.bx {
   font-size: 24px;
-  color: rgba(212, 175, 55, 0.7);
+  color: rgba(212, 175, 55, 1.0);
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 1);
+  background: #fadadd;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1027,7 +1028,7 @@ section .container {
   display: flex;
 }
 .contact .info-box .social-links a {
-  font-size: 18px;
+  font-size: 24px;
   display: inline-block;
   color: #fff;
   line-height: 1;
