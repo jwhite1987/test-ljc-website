@@ -626,7 +626,7 @@ section .container {
   position: relative;
 }
 .resume .resume-item h4 {
-  line-height: 18px;
+  /* line-height: 18px; */
   font-size: 26px;
   font-weight: 700;
   /* text-transform: lowercase; */
