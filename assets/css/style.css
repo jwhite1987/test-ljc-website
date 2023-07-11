@@ -210,6 +210,7 @@ br.responsive {
   }
   #header.header-top h1 {
     font-size: 26px;
+    display: flex;
   }
 }
 
@@ -285,8 +286,9 @@ br.responsive {
   line-height: 0;
   transition: 0.5s;
   position: fixed;
-  right: 15px;
+  left: 15px;
   top: 15px;
+  
 }
 
 @media (max-width: 991px) {
@@ -313,7 +315,7 @@ br.responsive {
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
-  right: 15px;
+  left: 15px;
 }
 .navbar-mobile ul {
   display: block;
@@ -367,12 +369,13 @@ section .container {
 @media (max-width: 768px) {
   section {
     top: 120px;
-  }
+    width: 90%;
+    align-items: center;
   section.section-show {
     top: 80px;
   }
 }
-
+}
 .section-title h2 {
   font-size: 20px;
   font-weight: 700;
