@@ -583,7 +583,6 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
   position: relative;
   border-radius: 6px;
-  position: relative;
   z-index: 1;
 }
 .testimonials .swiper-pagination {
