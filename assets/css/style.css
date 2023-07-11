@@ -13,7 +13,6 @@ body {
   background-color: #040404;
   color: #fff;
   position: relative;
-  background: transparent;
   opacity: 1;
 }
 body::before {
@@ -48,14 +47,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.ml2 {
-  font-weight: 900;
-  font-size: 3.5em;
+br.responsive {
+  display: inline;
 }
 
-.ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
+@media (min-width: 768px) {
+  br.responsive {
+    display: none;
+  }
 }
 
 
@@ -139,11 +138,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 992px) {
   #header h1 {
-    font-size: 36px;
+    font-size: 72px;
+    text-align: center;
   }
   #header h2 {
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
+  }
+  #header h2 span {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
   }
   #header .social-links {
     margin-top: 15px;
@@ -443,7 +449,7 @@ section .container {
   padding: 70px 0 60px;
 }
 .counts .count-box {
-  padding: 30px 30px 25px 30px;
+  padding: 30px 30px 25px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -573,7 +579,7 @@ section .container {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 60px;
   background: rgba(255, 255, 255, 0.1);
   position: relative;
   border-radius: 6px;
@@ -801,7 +807,7 @@ section .container {
 }
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 15px;
   list-style: none;
   text-align: center;
   border-radius: 50px;
@@ -810,14 +816,14 @@ section .container {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 16px 10px 16px;
+  padding: 8px 16px 10px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
-  margin: 0 3px 10px 3px;
+  margin: 0 3px 10px;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
@@ -972,7 +978,7 @@ section .container {
 }
 .portfolio-details .portfolio-info p {
   font-size: 15px;
-  padding: 15px 0 0 0;
+  padding: 15px 0 0©;
 }
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
