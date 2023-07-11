@@ -245,7 +245,6 @@ br.responsive {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  font-weight: 400;
   color: rgba(212, 175, 55, 1.0);
   white-space: nowrap;
   transition: 0.3s;
@@ -265,7 +264,6 @@ br.responsive {
   left: 0;
   background-color: rgba(212, 175, 55, 1.0);
   visibility: hidden;
-  width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
