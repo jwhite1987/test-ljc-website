@@ -209,8 +209,8 @@ br.responsive {
     height: 60px;
   }
   #header.header-top h1 {
-    font-size: 26px;
-    display: flex;
+    font-size: 40px;
+    text-align: center !important;
   }
 }
 
@@ -275,6 +275,8 @@ br.responsive {
   color: #fff;
 }
 
+
+
 /**
 * Mobile Navigation 
 */
@@ -286,7 +288,7 @@ br.responsive {
   line-height: 0;
   transition: 0.5s;
   position: fixed;
-  left: 15px;
+  right: 15px;
   top: 15px;
   
 }
@@ -315,7 +317,7 @@ br.responsive {
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
-  left: 15px;
+  right: 15px;
 }
 .navbar-mobile ul {
   display: block;
@@ -369,13 +371,15 @@ section .container {
 @media (max-width: 768px) {
   section {
     top: 120px;
-    width: 90%;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
   section.section-show {
     top: 80px;
   }
 }
 }
+
 .section-title h2 {
   font-size: 20px;
   font-weight: 700;
@@ -620,7 +624,7 @@ section .container {
 }
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   /* text-transform: lowercase; */
   font-family: "Parisienne", sans-serif;
@@ -628,12 +632,12 @@ section .container {
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 14px;
   /* background: rgba(255, 255, 255, 0.15); */
   /* padding: 5px 15px; */
   font-family: "Montserrat", sans-serif;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 10px;
   font-style: italic;
 }
@@ -641,6 +645,7 @@ section .container {
 .resume .resume-item p {
   margin-top: -10px;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 .resume .resume-item ul {
@@ -665,7 +670,15 @@ section .container {
   border: 2px solid rgba(212, 175, 55, 0.7);
 }
 
-
+.resume .button {
+  background: rgba(212, 175, 55, 0.7);
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  justify-content: center;
+}
 /*-- Skills Section --*/
 
 .skills .skills-title {
