@@ -321,6 +321,7 @@ br.responsive {
   right: 15px;
 }
 .navbar-mobile ul {
+  /* background: rgba(41, 37, 37, 0.7); */
   display: block;
   position: absolute;
   top: 55px;
@@ -330,7 +331,7 @@ br.responsive {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 0.25px solid rgba(255, 255, 255, 1.0);
 }
 .navbar-mobile li {
   padding: 12px 20px;
