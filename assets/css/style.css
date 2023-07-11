@@ -81,7 +81,7 @@ br.responsive {
   padding: 0;
   line-height: 1;
   font-weight: 900;
-  font-family: "Parisienne", sans-serif;
+  font-family: "Parisienne";
   
 }
 #header h1 a, #header h1 a:hover {
@@ -103,7 +103,7 @@ br.responsive {
   font-weight: 700;
   /* border-bottom: 2px solid rgba(212, 175, 55, 0.7); */
   padding-bottom: 6px;
-  font-family: "Parisienne", sans-serif;
+  font-family: "Parisienne";
   font-size: 34px;
   padding-left: 5px;
   padding-right: 5px;
@@ -408,7 +408,7 @@ section .container {
   font-size: 26px;
   font-weight: 700;
   text-transform: lowercase;
-  font-family: "Parisienne", sans-serif;
+  font-family: "Parisienne";
   color: rgba(239, 136, 145, 0.8);
   margin-left: 20px;
 }
@@ -420,7 +420,7 @@ section .container {
   font-weight: 700;
   font-size: 34px;
   color: rgba(212, 175, 55, 0.9);
-  font-family: "Parisienne", san-serif;
+  font-family: "Parisienne";
 }
 
 .about-me .content ul {
@@ -436,7 +436,7 @@ section .container {
 .about-me .content ul strong {
   color: rgba(239, 136, 145, 0.8);
   margin-right: 10px;
-  font-family: "Parisienne", sans-serif;
+  font-family: "Parisienne";
   font-size: 24px;
   font-weight: 700;
 }
@@ -630,7 +630,7 @@ section .container {
   font-size: 26px;
   font-weight: 700;
   /* text-transform: lowercase; */
-  font-family: "Parisienne", sans-serif;
+  font-family: "Parisienne";
   color: rgba(212, 175, 55, 1);
   margin-bottom: 10px;
 }
@@ -704,7 +704,7 @@ section .container {
   font-size: 28px;
   font-weight: 700;
   text-transform: lowercase;
-  font-family: "Parisienne", sans-serif;
+  font-family: "Parisienne";
   color: rgba(212, 175, 55, 1.0);
   margin-bottom: 10px;
 }
